@@ -15,14 +15,14 @@ public class BrowserInitialize {
 		String BR=rb.getString("Browser");
 		if(BR.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\md954105\\Desktop\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver"),"D:\SELENIUM\Chrome -Driver\chromedriver_win32.zip");
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
 		}
 		
 		else
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\md954105\\Desktop\\chromedriver.exe");
+			//System.setProperty("D:\SELENIUM\Chrome -Driver\chromedriver_win32.zip");
 			driver=new ChromeDriver();
 			driver.manage().window().maximize();
 		}
